@@ -2,3 +2,4 @@
 //Modificatiom 1
 Console.WriteLine("Hello, World!");
 Console.WriteLine("Welcome to console app");
+var x =23;
