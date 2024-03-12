@@ -9,8 +9,8 @@ Console.WriteLine("Hello, World!");
 Console.WriteLine("Welcome to console app");
 var x =23;
 var arr = new int[] { 10, 17, 25, 30, 40, 55, 60, 70 };
-double avg = Queryable.Average(arr.AsQueryable());
-Console.WriteLine("Average = "+avg);
+double average = Queryable.Average(arr.AsQueryable());
+Console.WriteLine("Average = "+average);
 //Task 4
 var arr2 = Enumerable.Range(0, 10).ToArray();
 var max = arr2.Max();
